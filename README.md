@@ -14,21 +14,6 @@
 - Анализировать данные из CSV файлов
 - Извлекать email-адреса из текста
 
-## Структура проекта
-work_tracker/
-├── main.py # Точка входа
-├── models.py # Модели данных (Employee, Task, Project)
-├── storage.py # Работа с базой данных SQLite
-├── gui.py # Графический интерфейс (Tkinter)
-├── utils.py # Вспомогательные функции
-├── analytics.py # Модуль аналитики
-├── tests/ # Юнит-тесты
-│ ├── init.py
-│ └── test_models.py
-├── requirements.txt
-├── README.md
-└── .gitignore
-
 ## Установка
 
 1. Клонируйте репозиторий:
@@ -44,15 +29,16 @@ pip install -r requirements.txt
 ## Запуск
 python main.py
 
-## Технологии
-Python 3.8+
-Tkinter (GUI)
-SQLite (база данных)
-Pandas (анализ данных)
-Регулярные выражения (обработка текста)
+## Технологии:
+- Python 3.8+
+- Tkinter (GUI)
+- SQLite (база данных)
+- Pandas (анализ данных)
+- Регулярные выражения (обработка текста)
 
 ## Автор
 Козлов Владислав Александрович
 
 ## Лицензия
+
 MIT License
