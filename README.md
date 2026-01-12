@@ -21,8 +21,9 @@ git clone https://github.com/username/work-tracker.git
 cd work-tracker
 2. Создайте виртуальное окружение:
 python -m venv venv
-source venv/bin/activate  # Linux/Mac
-venv\Scripts\activate     # Windows
+
+- source venv/bin/activate  # Linux/Mac
+- venv\Scripts\activate     # Windows
 3. Установите зависимости:
 pip install -r requirements.txt
 
@@ -42,3 +43,4 @@ python main.py
 ## Лицензия
 
 MIT License
+
