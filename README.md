@@ -17,8 +17,6 @@
 ## Установка
 
 1. Клонируйте репозиторий:
-git clone https://github.com/username/work-tracker.git
-cd work-tracker
 2. Создайте виртуальное окружение:
 python -m venv venv
 
@@ -43,4 +41,5 @@ python main.py
 ## Лицензия
 
 MIT License
+
 
